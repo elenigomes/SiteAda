@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>Ada Lovelace</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -93,8 +96,8 @@
     </section>
 
     <h3>Conheça outras mulheres que fizeram história na tecnologia:</h3>
-    <nav>
-        <ul>
+    <nav >
+        <ul class="nav_mulheres">
             <li>
                 <a href="https://pt.wikipedia.org/wiki/Grace_Hopper" target="_blank"> Grace Hopper </a>
             </li>
@@ -113,8 +116,19 @@
             </li>
         </ul>
     </nav>
+    <h4>Quer saber masi sobre outras mulhers que fizeram histórias na pragramação? Deixe seu email!</h4>
 
+    <form>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text">
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="number">
+        <button id="botao_enviar">Enviar</button>
+     </form>
 
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
